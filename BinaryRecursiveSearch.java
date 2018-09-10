@@ -25,6 +25,10 @@ public class BinaryRecursiveSearch implements Practice2Search{
 
     /*
         Helper method that allows you to call the search method recursively
+       * @param arr     array of int from original search function
+       * @param target  the int that is being searched for
+       * @param low     the lower end
+       * @param upper   the higher end of the search
      */
     private int search(int[] arr, int target, int low, int upper){
             if(low > upper) {
